@@ -94,7 +94,7 @@ backend or call the Gemini API server-side. Use Hugging Face Spaces instead:
 5. Wait for the build to finish (Logs tab) — then it's live at
    `https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME`
 
-## 🔒 What this doesn't do (on purpose)
+## What this doesn't do (on purpose)
 
 - Doesn't log into or post to any social platform
 - Doesn't send email
