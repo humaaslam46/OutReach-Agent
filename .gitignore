@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+backend/outreach_log.json
+venv/
