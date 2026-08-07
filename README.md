@@ -1,14 +1,4 @@
----
-title: SafeX Outreach Assistant
-emoji: 🎯
-colorFrom: blue
-colorTo: gray
-sdk: docker
-app_port: 7860
-pinned: false
----
-
-# 🎯 SafeX Outreach Assistant
+#  SafeX Outreach Assistant
 
 A tool to make daily client outreach faster and better-tracked — **without automating any
 actual sending**. It drafts personalized message openers using Gemini, and tracks logged
@@ -18,7 +8,7 @@ outreach against daily targets, in one small self-contained web app.
 
 ---
 
-## ⚠️ Why this doesn't auto-send anything (read first)
+##  Why this doesn't auto-send anything (read first)
 
 Automating direct messages on Instagram, X, Facebook, TikTok, or Telegram violates those
 platforms' Terms of Service and typically gets accounts suspended. Automated bulk email
@@ -30,7 +20,7 @@ It does two things instead:
    and send it yourself, one real conversation at a time.
 2. **Tracks** what you've actually sent, with daily progress against your targets.
 
-## ✨ Features
+##  Features
 
 - Gemini-powered draft generation, tailored to business name, industry, city, and platform
 - Outreach rules (no links in first message, identifies you as a SafeX intern, low-pressure
@@ -40,7 +30,7 @@ It does two things instead:
 - Searchable log of everything sent, with response status
 - Tracker works even without a Gemini key configured — only drafting needs it
 
-## 🛠️ Tech stack
+## Tech stack
 
 | Layer | Tech |
 |---|---|
@@ -51,7 +41,7 @@ It does two things instead:
 | Frontend | Single-file HTML/CSS/JS, no framework |
 | Hosting | Hugging Face Spaces (Docker) |
 
-## 📂 Project structure
+## Project structure
 
 ```
 backend/
@@ -60,11 +50,10 @@ backend/
   storage.py        # JSON-file based log storage
   schemas.py         # request/response models + daily targets
   static/index.html  # the frontend (Draft tab + Tracker tab)
-Dockerfile
 requirements.txt
 ```
 
-## 🚀 Running locally
+## Running locally
 
 **Windows note:** if `pip` or `uvicorn` aren't recognized directly, use `python -m pip` /
 `python -m uvicorn` instead — routes through Python regardless of PATH setup.
