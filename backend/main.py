@@ -53,3 +53,4 @@ def get_progress():
 
 
 # Frontend — served at "/". Mounted last so it doesn't shadow the API routes above.
+app.mount("/", StaticFiles(directory=Path(__file__).parent / "static", html=True), name="static")
