@@ -4,7 +4,7 @@ A tool to make daily client outreach faster and better-tracked — **without aut
 actual sending**. It drafts personalized message openers using Gemini, and tracks logged
 outreach against daily targets, in one small self-contained web app.
 
-**Author:** Huma Aslam · SafeX Solutions AI/ML Intern
+**Author:** Huma Aslam - AI Engineer
 
 ---
 
