@@ -4,8 +4,6 @@ A tool to make daily client outreach faster and better-tracked — **without aut
 actual sending**. It drafts personalized message openers using Gemini, and tracks logged
 outreach against daily targets, in one small self-contained web app.
 
-**Author:** Huma Aslam - AI Engineer
-
 ---
 
 ##  Why this doesn't auto-send anything (read first)
@@ -100,3 +98,6 @@ backend or call the Gemini API server-side. Use Hugging Face Spaces instead:
 - Doesn't send email
 - Doesn't scrape contact info without you providing it
 - Doesn't auto-follow-up — every send stays entirely manual, yours
+---
+
+**Author:** Huma Aslam - AI Engineer
